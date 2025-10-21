@@ -14,6 +14,9 @@ import base64
 from io import BytesIO
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
+# import ssl
+# import certifi
+# ssl._create_default_https_context = ssl._create_unverified_context
 
 class ImageProcessor:
     """
